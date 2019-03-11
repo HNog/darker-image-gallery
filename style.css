@@ -1,0 +1,41 @@
+
+body {
+	background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.s-nbcnews.com%2Fi%2FMSNBC%2FComponents%2FVideo%2F201708%2Fa_mach_eclipse_greateclipse_170803.jpg&f=1);
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+	font-size: 3em;
+	border-bottom: 2px solid gray;
+	width: 800px;
+	text-align: center;
+	margin-left: 280px;
+	color: rgba(255,215,0, 1);
+	box-shadow: 0 5px 4px -4px #888888; 
+}
+
+img {
+	width: auto;
+	height: 440px;
+	margin: 3px;
+	transition: all 1s;
+	max-width: 100%;
+}
+
+img:hover { 
+	transform: scale(1.1);
+}
+
+/*MEDIA QUERIES*/
+
+/*@media only screen 
+and (max-width: 320px) {
+	
+}*/
